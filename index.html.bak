@@ -1,0 +1,61 @@
+
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>coderylx的个人网站</title>
+  <style type="text/css">
+    *{
+        font-family: "宋体";
+    }
+    body{
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+				background-size: cover;
+				}
+		ul{
+            float: left;
+            margin: 30px;
+        }
+        ul li{
+            display: inline-block; 
+            /*在元素之后不添加换行符，因此该元素可以位于其他元素旁边，实现水平显示列表项*/
+        }
+        ul li a{
+            text-decoration: none;
+            font-weight: bold;/* 字体加粗 */
+            color: black;
+            padding: 6px 30px;
+            border: 1px solid transparent; /*使边框颜色透明*/
+            transition: .6s ease; /*设置过度效果*/
+            border-radius: 20px; /*设置圆角*/
+        }
+		ul li a:hover{		/*鼠标悬停在li的a上时的样式*/
+            background-color: #fff;
+
+        }
+        .title{
+            position:absolute;
+		    top:42%;
+            left: 30%;
+			font-size:25px;};
+  </style>
+ </head>
+
+ <body background="1.jpg">
+   <div>
+    <ul>
+        <li ><a href="https://codercxt.github.io/">首页</a></li>
+        <li><a href="homework.html" target="_blank">作业</a></li>
+        <li><a href="https://github.com/codercxt/codercxt.github.io">仓库</a></li>
+        <!-- target="_blank": 在新的窗口中打开一个页面 -->
+    </ul>
+    </div>
+    <div class="title">
+        <h2><span style="color: black;">Welcome to my site</span></h2>
+    </div>
+ </body>
+</html>
